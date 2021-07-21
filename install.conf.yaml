@@ -1,0 +1,12 @@
+- defaults:
+    link:
+      relink: true
+
+- clean: ['~']
+
+- link:
+  ~/.aliases: .aliases
+
+- shell:
+  - command: echo "source ~/.aliases" >> ~/.zshrc
+    description: Adds all aliases to zshrc

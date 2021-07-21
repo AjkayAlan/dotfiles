@@ -1,0 +1,7 @@
+# Relies on oh-my-zsh
+function yeet() {
+    gaa
+    gcmsg "$1"
+    gpsup
+}
+alias yeet="'yeet'"

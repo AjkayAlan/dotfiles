@@ -2,11 +2,11 @@
     link:
       relink: true
 
-- clean: ['~']
+- clean: ["~"]
 
 - link:
-  ~/.aliases: .aliases
+    ~/.aliases: .aliases
 
 - shell:
-  - command: echo "source ~/.aliases" >> ~/.zshrc
-    description: Adds all aliases to zshrc
+    - command: echo "source ~/.aliases" >> ~/.zshrc
+      description: Adds all aliases to zshrc

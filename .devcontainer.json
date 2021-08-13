@@ -55,6 +55,7 @@
     "workbench.editor.untitled.hint": "hidden",
     "workbench.iconTheme": "vscode-icons",
     "workbench.startupEditor": "newUntitledFile",
+    "yaml.schemas": {},
     "[javascript]": {
       "editor.defaultFormatter": "esbenp.prettier-vscode"
     },

@@ -26,6 +26,9 @@
     "editor.fontFamily": "CaskaydiaCove NF, Consolas",
     "editor.formatOnSave": true,
     "editor.suggestSelection": "first",
+    "files.associations": {
+      "*.mdx": "markdown"
+    },
     "files.autoSave": "afterDelay",
     "files.exclude": {
       "**/.git": true,
@@ -67,6 +70,9 @@
     },
     "[markdown]": {
       "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[python]": {
+      "editor.defaultFormatter": "ms-python.python"
     },
     "[typescript]": {
       "editor.defaultFormatter": "esbenp.prettier-vscode"

@@ -53,6 +53,9 @@
     "python.linting.flake8Enabled": true,
     "python.showStartPage": false,
     "redhat.telemetry.enabled": false,
+    "terminal.integrated.defaultProfile.linux": "zsh",
+    "terminal.integrated.defaultProfile.osx": "zsh",
+    "terminal.integrated.defaultProfile.windows": "zsh",
     "terminal.integrated.fontFamily": "'CaskaydiaCove NF'",
     "vsicons.dontShowNewVersionMessage": true,
     "workbench.editor.untitled.hint": "hidden",
@@ -80,6 +83,6 @@
     "[yaml]": {
       "editor.defaultFormatter": "redhat.vscode-yaml"
     }
-  },
-  "postCreateCommand": "~/.pyenv/shims/python -m pip install -U flake8 && ~/.pyenv/shims/python -m pip install -U black"
+  }
+  // "postCreateCommand": "zsh -i -c 'pip install -r requirements_dev.txt'"
 }

@@ -23,7 +23,7 @@
     "visualstudioexptteam.vscodeintellicode"
   ],
   "settings": {
-    "editor.fontFamily": "CaskaydiaCove NF, Consolas",
+    "editor.fontFamily": "CaskaydiaCove NF, CaskaydiaCove Nerd Font Mono, Cascadia Code, Consolas, San Francisco Mono",
     "editor.formatOnSave": true,
     "editor.suggestSelection": "first",
     "files.associations": {
@@ -56,7 +56,7 @@
     "terminal.integrated.defaultProfile.linux": "zsh",
     "terminal.integrated.defaultProfile.osx": "zsh",
     "terminal.integrated.defaultProfile.windows": "zsh",
-    "terminal.integrated.fontFamily": "'CaskaydiaCove NF'",
+    "terminal.integrated.fontFamily": "CaskaydiaCove NF, CaskaydiaCove Nerd Font Mono, Cascadia Code, Consolas, San Francisco Mono",
     "vsicons.dontShowNewVersionMessage": true,
     "workbench.editor.untitled.hint": "hidden",
     "workbench.iconTheme": "vscode-icons",
